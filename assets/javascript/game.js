@@ -21,7 +21,21 @@ $(document).ready(function () {
     function reset() {
         randomNumber = Math.floor(Math.random() * 102) + 19;
 
-    // Listener
+        $("#randomNumber").text(randomNumber);
+        total = 0;
+        $("#finalTotal").text(total);
+        rock1 = Math.floor(Math.random() * 12) + 1;
+        console.log(rock1);
+        rock2 = Math.floor(Math.random() * 12) + 1;
+        console.log(rock2);
+        rock3 = Math.floor(Math.random() * 12) + 1;
+        console.log(rock3);
+        rock4 = Math.floor(Math.random() * 12) + 1;
+        console.log(rock4);
+
+    }
+
+    // Listeners
     $(".one").on("click", function () {
         total = total + rock1;
         $('#finalTotal').text(total);
