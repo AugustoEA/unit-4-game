@@ -5,11 +5,15 @@ var total = 0;
 
 
 //randomizer
-var rock1 = Math.floor(Math.random() *12) + 1;
-var rock2 = Math.floor(Math.random() *12) + 1;
-var rock3 = Math.floor(Math.random() *12) + 1;
-var rock4 = Math.floor(Math.random() *12) + 1;
+//var rock1 = Math.floor(Math.random() *12) + 1;
+//var rock2 = Math.floor(Math.random() *12) + 1;
+//var rock3 = Math.floor(Math.random() *12) + 1;
+//var rock4 = Math.floor(Math.random() *12) + 1;
 // console.log(rock3)
+
+var randomNumber = Math.floor(Math.random() * 102) + 19;
+console.log(randomNumber);
+
 
 
 // Listener
